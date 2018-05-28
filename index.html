@@ -6,8 +6,8 @@
 <title>Saxon-CE Documentation</title>
 
 <script type="text/javascript" language="javascript" src="Saxonce/Saxonce.nocache.js"></script>
-<script src="/js/vkbeautify.js"></script>
-<script src="/js/FileSaver.min.js"></script>
+<script src="js/vkbeautify.js"></script>
+<script src="js/FileSaver.min.js"></script>
 </head>
 <body>
 <code><pre id="outputXML">Generating XML erudit file, please wait</pre></code>
@@ -25,7 +25,7 @@ function getQueryVariable(variable)
 let source = getQueryVariable("source");
 if(source){
 	var onSaxonLoad = function() { 
-	var xsl = Saxon.requestXML("/xsl/XHTML2eruditV1.xsl"); 
+	var xsl = Saxon.requestXML("xsl/XHTML2eruditV1.xsl"); 
 	var xml = Saxon.requestXML(source); 
 	var proc = Saxon.newXSLT20Processor(xsl); 
 	var output = proc.transformToDocument(xml); 
