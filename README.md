@@ -10,3 +10,9 @@ https://ecrituresnumeriques.github.io/saxon-xsl-transform/?source=[URLToSourceHT
 
 https://ecrituresnumeriques.github.io/saxon-xsl-transform/?source=demo/html2.html
 
+# todo
+
+- migrate from saxon-ce to saxon-js (need to measure performance gain, saxon-ce is pretty slow)
+- Add a xsl switcher (only erudit-xsl available now)
+- Add interface when no source is specified
+- beautify everything
