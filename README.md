@@ -8,5 +8,5 @@ https://ecrituresnumeriques.github.io/saxon-xsl-transform/?source=[URLToSourceHT
 
 # demo
 
-https://ecrituresnumeriques.github.io/saxon-xsl-transform/?source=/demo/html2.html
+https://ecrituresnumeriques.github.io/saxon-xsl-transform/?source=demo/html2.html
 
